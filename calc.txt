@@ -1,0 +1,79 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/app"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shrikhand"
+        android:text="calculate"
+        android:textColor="#C89D9D"
+        android:textColorHighlight="#505359"
+        android:textColorHint="#ECE5E5"
+        android:textColorLink="#424349"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shrikhand"
+        android:text="calculator"
+        android:textColor="#5D5D63"
+        android:textColorHighlight="#BF8787"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shrikhand"
+        android:text="total"
+        android:textColor="#46484A"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="811dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Second Number"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="589dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
